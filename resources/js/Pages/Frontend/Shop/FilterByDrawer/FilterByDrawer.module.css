@@ -1,0 +1,99 @@
+.filterBySection {
+    position: fixed;
+    width: 60%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 9999;
+    top: 0;
+    left: -3000px;
+    box-sizing: border-box;
+    box-shadow: 200px 0px 5px -1px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: 200px 0px 5px -1px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 200px 0px 5px -1px rgba(0, 0, 0, 0.33);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.filterBySection::-webkit-scrollbar {
+    display: none;
+}
+
+.filterBySection.show {
+    left: 0px;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+}
+
+@keyframes fadeInLeft {
+    from {
+        left: -150%;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+.filterBySection.hide {
+    left: -3000px;
+    animation-name: fadeOutLeft;
+    animation-duration: 1s;
+}
+
+@keyframes fadeOutLeft {
+    from {
+        left: 0px;
+    }
+    to {
+        left: -150%;
+    }
+}
+
+.header {
+    background-color: #1a1a1a;
+    padding: 7px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #f0f0f0;
+}
+
+.header > button {
+    border-radius: 7px;
+    padding: 2px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.body > .section_wrapper > h6 {*/
+/*    display: flex !important;*/
+/*    flex-direction: row;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*.filter_by_section > form > .body > .section_wrapper > h6 > .filter_expand_btn {*/
+/*    transform: rotate(180deg) !important;*/
+/*    cursor: pointer;*/
+/*    transition: 1s;*/
+/*}*/
+
+/*.filter_by_section > form > .body > .section_wrapper > h6 .filter_expand_btn.hide {*/
+/*    transform: rotate(0deg) !important;*/
+/*    transition: 1s;*/
+/*}*/
+
+/*.filter_by_section > form > .body > .section_wrapper {*/
+/*    padding: 15px 10px;*/
+/*}*/
+
+/*.filter_by_section > form > .body > .section_wrapper > ul {*/
+/*    width: 100%;*/
+/*    padding: 0 0 10px 0;*/
+/*    border-bottom: 1px solid #b0b0b0;*/
+/*    display: block;*/
+/*    transition: 1s;*/
+/*}*/
+/*.filter_by_section > form > .body > .section_wrapper > ul.hide {*/
+/*    display: none;*/
+/*    transition: 1s;*/
+/*}*/

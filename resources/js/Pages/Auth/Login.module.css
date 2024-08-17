@@ -1,0 +1,71 @@
+.pageTitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #1A1A1A;
+    border-bottom: 1px solid #1A1A1A;
+    padding-bottom: 20px;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.pageOr {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #808080;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 15px 0;
+}
+
+.googleLoginBtn {
+    width: 100%;
+    border: 1px solid #808080;
+    padding: 12px;
+    margin: 20px 0 60px 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #1A1A1A;
+    background-color: #fff;
+}
+.googleLoginBtn img {
+    width: 24px;
+    height: 24px;
+}
+
+.createAccountBtn, .forgotPasswordBtn {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.createAccountBtn {
+    color: #007BFF;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.forgotPasswordBtn {
+    color: #FF3131;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.loginHereBtn {
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #1A1A1A;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+}
+.loginHereBtn span {
+    color: #007BFF;
+}
+.forgotPasswordForm {
+    margin-bottom: 200px;
+}

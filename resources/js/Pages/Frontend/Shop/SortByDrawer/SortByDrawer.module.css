@@ -1,0 +1,81 @@
+body {
+    position: relative;
+}
+.sortBySection {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99999;
+    bottom: -3000px;
+    box-sizing: border-box;
+    box-shadow: -1px -4px 5px -1px rgba(0, 0, 0, 0.45);
+    -webkit-box-shadow: -1px -4px 5px -1px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: -1px -4px 5px -1px rgba(0, 0, 0, 0.45);
+    padding: 0
+}
+
+.sortBySection.show {
+    bottom: 0px;
+    animation-name: fadeInBottom;
+    animation-duration: 1s;
+}
+
+@keyframes fadeInBottom {
+    from {
+        bottom: -350px;
+    }
+    to {
+        bottom: 0px;
+    }
+}
+
+.sortBySection.hide {
+    bottom: -3000px;
+    animation-name: fadeOutBottom;
+    animation-duration: 1s;
+}
+
+@keyframes fadeOutBottom {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: -350px;
+    }
+}
+
+.sortBySection > .header {
+    background-color: #1a1a1a;
+    padding: 7px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #f0f0f0;
+}
+
+.sortBySection > .header > button {
+    border-radius: 7px;
+    padding: 2px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    padding: 15px 7px;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.body > ul {
+    width: 100%;
+    padding: 0;
+}
+
+.body > ul > li {
+    padding: 7px;
+}
+.body > ul > li label {
+    padding: 0 5px;
+}

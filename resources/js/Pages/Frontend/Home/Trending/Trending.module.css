@@ -1,0 +1,122 @@
+.wrapper {
+    width: 90vw !important;
+    padding: 0;
+
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+}
+.wrapper >div {
+    margin: 50px 0 25px 0;
+}
+.trandingWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+.trandingWrapper h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+}
+.trandingWrapper h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #808080;
+}
+.trandingWrapper p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+.trandingText {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+
+}
+.trandingImg {
+    width: 400px;
+    height: 235px;
+    float: right;
+}
+
+@media (min-width: 300px) and (max-height: 1199px) {
+    .wrapper {
+        width: 93vw !important;
+        padding: 0;
+    }
+    .wrapper >div {
+        margin: 15px 0 10px 0;
+    }
+    /*.trandingWrapper {*/
+    /*    padding-bottom: 10px;*/
+    /*}*/
+    .trandingWrapper h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .trandingWrapper h2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .trandingWrapper p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .trandingImg {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wrapper {
+        width: 90vw !important;
+    }
+    .wrapper >div {
+        margin: 50px 0 25px 0;
+    }
+    .trandingWrapper {
+        padding-bottom: 0;
+    }
+    .trandingWrapper h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .trandingWrapper h2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .trandingWrapper p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .trandingImg {
+        width: 400px;
+        height: 235px;
+        float: right;
+    }
+}
+
+

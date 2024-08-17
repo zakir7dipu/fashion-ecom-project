@@ -1,0 +1,11 @@
+.product_thumbnail {
+    height: 164px;
+    border-bottom-width:0px;
+
+}
+
+.product_name{
+    text-align: left;
+    font-size:15px;
+    line-height: 27px;
+}

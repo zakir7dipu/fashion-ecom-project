@@ -1,0 +1,15 @@
+.tabSection {
+    border-bottom: 1px solid #808080;
+}
+.tabName {
+    font-family: "Poppins", sans-serif !important;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    color: #1A1A1A !important;
+    padding: 10px 15px !important;
+}
+.tabName:hover {
+    color: #1A1A1A !important;
+}

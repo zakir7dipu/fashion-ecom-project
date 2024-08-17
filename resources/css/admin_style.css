@@ -1,0 +1,121 @@
+
+.iq-sidebar {
+    background: #0b1249;
+}
+
+.iq-top-navbar {
+    background: #0b1249;
+}
+
+.iq-sidebar-menu .iq-menu li a {
+    color: #ffffff;
+}
+
+#sidebar-scrollbar {
+    overflow-y: auto;
+    scrollbar-color: #FFB71D var(--iq-light-primary);
+    scrollbar-width: thin;
+}
+
+.iq-footer {
+    background: #0b1349;
+}
+
+.iq-search-bar .search-input {
+    color: #0d0c0c;
+    background-color: #ffffff;
+}
+
+.iq-card {
+    background: white;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid #e6e4e1;
+}
+
+h1, h2, h3, h4, h5, h6,p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 0px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.app-search span {
+    position: absolute;
+    z-index: 10;
+    font-size: 17px;
+    line-height: 40px;
+    left: 23px;
+    top: 3px;
+    color: #74788d;
+}
+
+.page-header {
+    background: #ffffff;
+    margin-bottom: 16px;
+    padding: 5px 10px 0px;
+    border-radius: 15px;
+    border: 1px solid;
+}
+
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px 1px;
+    margin-bottom: 0px;
+    list-style: none;
+    border-radius: .25rem;
+    color: #434546;
+}
+
+.rmsc .dropdown-container {
+    color: black;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9; /* Custom striped color */
+}
+
+/* More specific selector to ensure it overrides Bootstrap */
+table.table-striped.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9; /* Custom striped color */
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    /*padding: 2px 2px 0px;*/
+    z-index: 999999;
+    /*margin-left: -24px;*/
+}
+
+
+
+.rti--container {
+    --rti-bg: #fff;
+    --rti-border: #ccc;
+    --rti-main: #3182ce;
+    --rti-radius: .375rem;
+    --rti-s: 0.4rem;
+    --rti-tag: #edf2f7;
+    --rti-tag-remove: #e53e3e;
+    --rti-tag-padding: .15rem .25rem;
+    align-items: center;
+    background: var(--rti-bg);
+    border: 1px solid var(--rti-border);
+    border-radius: var(--rti-radius);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--rti-s);
+    line-height: 1.4;
+    padding: var(--rti-s);
+}
+
+.ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options {
+    border-color: #ccc;
+    background: white;
+}
+
+/*table thead {*/
+/*    background: #0b1249;*/
+/*    color: white;*/
+/*}*/

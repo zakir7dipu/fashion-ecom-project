@@ -1,0 +1,46 @@
+.attributeSection {
+    padding: 5px 0;
+}
+.title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #1A1A1A;
+    text-transform: capitalize;
+    padding: 0 5px;
+    font-size: 14px;
+    line-height: 17px;
+}
+.btnSection {
+    padding: 5px 0;
+}
+
+.btn {
+    border: 1px solid #808080;
+    background-color: transparent;
+    Padding: 3px 10px;
+    margin: 5px;
+    color: #808080;
+    border-radius: 1px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.btn.active, .btn:hover {
+    border-color: #1A1A1A;
+    color: #1A1A1A;
+}
+
+@media (min-width: 300px) and (max-height: 1199px) {
+    .title {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .title {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

@@ -1,0 +1,42 @@
+.wrapper {
+    width: 90vw;
+    padding: 0;
+    /*overflow: hidden;*/
+}
+
+.infoWrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer and Edge */
+    padding-right: 15px; /* Adjust as needed */
+    margin-right: -15px; /* Adjust as needed */
+}
+
+.detailsSection {
+    padding: 15px 0;
+}
+
+@media (min-width: 300px) and (max-height: 1199px) {
+    .wrapper {
+        width: 90vw;
+        padding: 0;
+    }
+    .infoWrapper {
+        height: auto;
+        overflow-x: unset;
+        overflow-y: unset;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wrapper {
+        width: 90vw;
+    }
+    .infoWrapper {
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+}

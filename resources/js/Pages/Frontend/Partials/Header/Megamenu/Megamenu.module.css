@@ -1,0 +1,181 @@
+
+.menuWrap {
+    padding: 10px 20px;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mobileMenuIcon {
+    width: 18px;
+    height: 18px;
+}
+
+.menuParent {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1A1A1A;
+    display: inline-block;
+    position: relative;
+}
+
+.menuLinkTitle:after {
+    /*content: url("/resources/home_asset/CustomIcons/down_Arrow.svg");*/
+    content: "\f107";
+    display: inline-block;
+    position: absolute;
+    font-size: 16px;
+    top: 0;
+    right: -20px;
+    Border: 2px;
+    transition: .5s;
+    font-family: "Font Awesome 5 Free", serif; /* Font family */
+    font-weight: 900; /* Font weight for solid icons */
+}
+
+.menuWrap:hover .menuDropdown {
+    display: block;
+    overflow-x: hidden;
+}
+
+.menuWrap:hover .menuLinkTitle:after {
+    content: "\f106";
+    transition: .5s;
+}
+@media (min-width: 300px) and (max-height: 1199px) {
+    .menuDropdown {
+        top: 0;
+        left: 0;
+        height: 100vh;
+    }
+}
+
+
+.menuDropdown {
+    position: absolute;
+    top: 90%;
+    left: 0;
+    display: none;
+    width: 100vw;
+    height: 80vh;
+    background-color: #f0f0f0;
+    z-index: 99999999;
+    overflow-y: scroll;
+}
+
+.megaMenuWrapper {
+    width: 90vw;
+    padding: 20px 0;
+    overflow-x: hidden;
+}
+
+.categoryItem {
+    border-right: 1px dotted #808080;
+    padding: 10px;
+}
+
+.categoryItem:nth-child(3n) {
+    border-right: none;
+}
+
+.categoryTitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #1a1a1a;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+.categoryTitleSpan {
+    position: relative;
+}
+.categoryTitleSpan:after {
+    content: url("/resources/home_asset/CustomIcons/blue_arrow_right.svg");
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: -35px;
+    transform: translate(0, -50%);
+}
+
+a.subCategoryItem {
+    color: #1A1A1A;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+a.subCategoryItem:hover {
+    color: #FF3131;
+    text-decoration: underline;
+}
+
+.subCategoryChild {
+    padding-left: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.subCategoryChild > li > a {
+    color: #808080;
+}
+
+.subCategoryChild > li > a:hover {
+    color: #0a53be;
+}
+
+@media (min-width: 300px) and (max-height: 1199px) {
+    .menuDropdown {
+        top: -35px;
+        height: 100vh;
+    }
+
+    .mobileMenuHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+        padding: 10px;
+    }
+    .mobileMenuHeader>.title {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .mobileMenuHeader>.closeBtn {
+        font-size: 25px;
+        font-weight: 500;
+        color: #FF3131;
+    }
+    .mobileMenuWrapper {
+        padding: 20px 0;
+    }
+
+    .mobileSubCategoryChild {
+        padding: 0 10px;
+    }
+    .mobileSubCategoryChild a {
+        color: #808080;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .menuDropdown {
+        top: 90%;
+        height: 80vh;
+    }
+}

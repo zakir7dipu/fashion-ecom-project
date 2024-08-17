@@ -1,0 +1,86 @@
+.verticalSlider {
+    width: 100%; /* Adjust the width as needed */
+    margin: auto;
+}
+.verticalSlider>div[dir="ltr"] {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 765px !important;
+}
+.verticalSlider>div[dir="ltr"]>div {
+    height: 710px !important;
+}
+
+.sliderItem {
+    cursor: pointer;
+}
+
+.verticalSlider img {
+    width: 80px;
+    height: 120px;
+}
+
+/*.verticalSlider>div>button, .verticalSlider>div>button:hover {*/
+/*    display: none !important;*/
+/*}*/
+
+
+
+/*.slick-dots li {*/
+/*    margin: 5px 0;*/
+/*}*/
+
+/*.slick-dots li button:before {*/
+/*    font-size: 12px;*/
+/*    color: black; !* Dot color *!*/
+/*}*/
+
+/*.slick-dots li.slick-active button:before {*/
+/*    color: blue; !* Active dot color *!*/
+/*}*/
+
+
+/*Next & Prev Button*/
+.slickPrev, .slickNext {
+    z-index: 9999 !important;
+    display: block !important;
+}
+
+.slickPrev {
+    left: 50% !important;
+    transform: translate(-50%) !important;
+}
+
+.slickNext {
+    left: 50% !important;
+    transform: translate(-50%) !important;
+}
+
+.slickPrev:before,
+.slickNext:before {
+    background-color: transparent;
+    opacity: 1;
+    /*padding: 13px 15px;*/
+    /*border-radius: 5px;*/
+    transition: .5s;
+    font-size: 16px !important;
+    color: #1A1A1A !important;
+    font-family: "Font Awesome 5 Free", serif !important;
+    font-weight: 900; /* Font weight for solid icons */
+    display: inline-block;
+}
+
+.slickPrev:before {
+    content: "\f106" !important;;
+}
+
+.slickNext:before {
+    content: "\f107" !important;;
+}
+
+.slickPrev:hover:before,
+.slickNext:hover:before {
+    background-color: transparent !important;
+}

@@ -1,0 +1,26 @@
+.section {
+    padding: 10px 0;
+}
+.sectionLeft, .sectionRight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    line-height: 17px;
+    border: 1px solid #808080;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.sectionLeft {
+    border-left: none;
+}
+.sectionRight {
+    border-right: none;
+}
+.sectionLeft span, .sectionRight span {
+    padding: 0 5px;
+}

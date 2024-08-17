@@ -1,0 +1,39 @@
+
+.socialShare {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #1A1A1A;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.socialShareIcon {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.socialLinkWrapper {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.socialLinkWrapper li {
+    padding: 5px 8px;
+    text-align: center;
+}
+
+@media (min-width: 300px) and (max-height: 1199px) {
+    .socialShare {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .socialShare {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

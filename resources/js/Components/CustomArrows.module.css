@@ -1,0 +1,44 @@
+.slickPrev, .slickNext {
+    z-index: 9999 !important;
+    display: none !important;
+}
+
+.slickPrev {
+    left: 10px !important;
+}
+
+.slickNext {
+    right: 35px !important;
+}
+
+.sliderWrapper:hover .slickNext {
+    display: block !important;
+    transition: 1s;
+}
+
+.sliderWrapper:hover .slickPrev {
+    display: block !important;
+    transition: 1s;
+}
+
+.slickPrev:before,
+.slickNext:before {
+    background: #1A1A1A;
+    opacity: 0.2;
+    padding: 16px;
+    border-radius: 5px;
+    transition: .5s;
+    font-size: 16px !important;
+    font-family: "Font Awesome 5 Free", serif;
+    font-weight: 900; /* Font weight for solid icons */
+    display: inline-block;
+}
+
+.slickPrev:before {
+    content: "\f104" !important;
+}
+
+.slickNext:before {
+    content: "\f105" !important;
+}
+

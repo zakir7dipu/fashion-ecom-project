@@ -1,0 +1,79 @@
+.welcomeNotification {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 22px;
+    line-height: 26px;
+    color: #1A1A1A;
+}
+
+.card {
+    padding: 0;
+    border-radius: unset;
+    box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.47);
+    -webkit-box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.47);
+    -moz-box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.47);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    transition: 1s;
+}
+
+.cardTitle, .cardText{
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+.cardBody {
+    position: relative;
+}
+.cardIcon {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 55px;
+    top: -27px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 99 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 50% 50%;
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+.cardIcon svg {
+    width: 30px;
+}
+.cardTitle {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    color: #1A1A1A;
+}
+
+.cardTitleID {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+    color: #635816;
+    text-align: center;
+}
+
+
+.cardText {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #808080;
+}

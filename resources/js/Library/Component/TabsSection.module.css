@@ -1,0 +1,39 @@
+.itemTab {
+    border-radius: 1px !important;
+}
+
+.itemTab a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #BFBFBF;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.itemTab a:hover {
+    color: #1A1A1A;
+}
+
+.itemCard, .itemCard div {
+    border-top: none !important;
+    background-color: transparent !important;
+}
+
+.itemCard img {
+    width: 100%;
+}
+
+@media (min-width: 300px) and (max-height: 1199px) {
+    .itemTab a {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .itemTab a {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

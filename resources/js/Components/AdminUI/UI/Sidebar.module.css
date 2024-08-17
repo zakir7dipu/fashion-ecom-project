@@ -1,0 +1,43 @@
+.iqSidebarMenuI {
+    font-size: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 20px;
+    display: inline-block;
+    float: left;
+    color: #86e6a5;
+    /*font-weight: 900;*/
+}
+
+
+.iqActionView {
+    font-size: 22px;
+    width: 24px;
+}
+
+.iqActionDropdown{
+    position: absolute;
+    will-change: transform;
+    top: 40px;
+    left: 0px;
+    transform: translate3d(-115px, -49px, 0px);
+}
+
+.iqSidebarMenuSub {
+    font-size: 20px;
+    /*margin-left: 20px;*/
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 20px;
+    display: inline-block;
+    float: left;
+    color: #86e6a5;
+    /*font-weight: 900;*/
+}
+
+.iqPageTitle{
+    /*margin-left: 3px;*/
+    font-size: 10px;
+    margin: 3px;
+}
+

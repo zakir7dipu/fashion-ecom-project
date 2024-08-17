@@ -1,0 +1,23 @@
+.section {
+    padding: 30px 0;
+}
+.wrapper {
+    width: 90vw !important;
+    padding: 0;
+    overflow: hidden;
+}
+.bannerImage {
+    width: 100%;
+}
+@media (min-width: 300px) and (max-height: 1199px) {
+    .wrapper {
+        width: 93vw !important;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wrapper {
+        width: 90vw !important;
+    }
+}

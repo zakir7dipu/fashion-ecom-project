@@ -1,0 +1,47 @@
+.sliderSec {
+    padding: 20px 0;
+}
+.sliderSecTitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #1A1A1A;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.sliderPriceTag {
+    color: #1A1A1A;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    padding: 5px 0;
+}
+.sliderPriceTag del {
+    color: #808080;
+    font-size: 11px;
+    padding: 0 5px;
+}
+
+.sliderCard {
+    padding: 5px;
+}
+.sliderImg {
+    width: 100%;
+}
+
+.addToCartBtn {
+    padding: 7px 5px;
+    width: 100%;
+    background-color: #808080;
+    color: #f0f0f0;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+}

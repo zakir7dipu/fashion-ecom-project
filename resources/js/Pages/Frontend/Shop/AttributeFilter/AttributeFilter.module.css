@@ -1,0 +1,94 @@
+.filterWrapper {
+    border: none;
+    border-bottom: 1px solid #808080;
+    margin: 10px 0;
+    border-radius: unset;
+}
+.filterHeader {
+    border: unset;
+    background-color: transparent;
+}
+.title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin: unset;
+    color: #1A1A1A;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.body {
+    padding: 0;
+}
+
+.filterUl {
+    padding: 5px 10px;
+    margin: 0;
+}
+.filterLi {
+    padding: 7px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputCheckbox {
+    /*margin: 3px 0;*/
+}
+.itemLabel {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.itemLabelTitle, .itemLabelTitleCount {
+    padding: 0 10px;
+    font-family: "Poppins", sans-serif;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.itemLabelTitle {
+    color: #1A1A1A;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.itemLabelTitleCount {
+    color: #808080;
+}
+
+.filterPrice .ui-widget.ui-widget-content {
+    border: 0;
+    border-radius: 0;
+    background-color: #ddd;
+    height: 4px;
+    margin-bottom: 20px;
+}
+.ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+}
+.filterPrice .ui-slider .ui-slider-range {
+    background-color: #1f1b1b;
+    border-radius: 0;
+}
+.filterPrice .ui-slider .ui-slider-handle {
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 100%;
+    border: 3px solid #000;
+    height: 18px;
+    top: -8px;
+    width: 18px;
+    margin: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.priceRange {
+    color: #292b2c;
+}
+#flt_price {
+    margin-left: 5px;
+    font-weight: 600;
+}

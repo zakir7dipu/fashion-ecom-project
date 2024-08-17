@@ -1,0 +1,90 @@
+.slick-next, .slick-prev {
+    background-color: #434546;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    z-index: 1;
+}
+
+.slick-next {
+    right: 0px;
+    border-radius: 5px 0 0 5px;
+}
+
+.slick-prev {
+    left: 0px;
+    border-radius: 0 5px 5px 0;
+}
+
+.slick-next:hover, .slick-prev:hover {
+    background-color: black;
+    opacity: 1;
+}
+
+.slider-container:hover .slick-next,
+.slider-container:hover .slick-prev,
+.slick-slide:hover .slick-next,
+.slick-slide:hover .slick-prev {
+    opacity: 1;
+}
+
+
+.slick-next:before, .slick-prev:before {
+    font-size: 30px; /* Increase the size as needed */
+    color: inherit; /* Inherit color from parent */
+}
+/* Ensure arrows are displayed properly */
+.sale-banner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.view-more-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1320px;
+    }
+}
+
+
+
+
+/* Mobile View Styles */
+@media (max-width: 767.98px) {
+    .carousel-indicators [data-bs-target] {
+        width: 5px;
+        height: 5px;
+        margin-right: 6px;
+        margin-left: 0px;
+        margin-bottom: -9px;
+        opacity: .7;
+    }
+
+    /* Additional styles to improve usability on mobile */
+    .carousel-indicators {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+}
+
+
+/**/
+
+

@@ -1,0 +1,75 @@
+/* Sliding cart styles */
+.slidingCart {
+    position: fixed;
+    top: 0;
+    right: -200%; /* initially hidden */
+    width: 500px !important; /* Full width on mobile */
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: right 0.3s ease;
+    padding: 8px;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.slidingCart.open {
+    right: 0;
+}
+
+.cartHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 20px 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #1A1A1A;
+}
+
+.cartHeaderTitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #1A1A1A;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.closeCart {
+    background: none;
+    border: none;
+    font-size: 24px;
+    line-height: 32px;
+    cursor: pointer;
+    color: #333;
+    padding: 0;
+}
+
+.closeCart:hover {
+    color: red;
+}
+
+.navbar-nav .nav-link.mobile_cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Adjust width for desktop view */
+@media (min-width: 300px) and (max-height: 1199px) {
+    .slidingCart {
+        width: 100vw !important;
+    }
+}
+
+
+/* Ensure the icon is visible on larger screens */
+@media (min-width: 1200px) {
+    .slidingCart {
+        width: 500px !important;
+    }
+
+    .navbar-nav .nav-link.mobile_cart {
+        display: flex;
+    }
+}

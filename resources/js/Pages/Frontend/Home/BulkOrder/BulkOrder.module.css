@@ -1,0 +1,106 @@
+.section {
+    padding: 30px 0;
+}
+.wrapper {
+    width: 90vw !important;
+    padding: 0;
+    overflow: hidden;
+}
+
+.bulkOrderRow {
+    background-color: #eaeaea;
+}
+
+.bulkOrderWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    padding: 15px 10px 10px 35px;
+}
+
+.bulkOrderTitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.bulkOrderText {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+
+}
+
+.bulkOrderBtn {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 7px 15px;
+    margin-top: 15px;
+}
+
+.bulkOrderImg {
+    width: 400px;
+    height: 235px;
+    float: right;
+}
+
+@media (min-width: 300px) and (max-height: 1199px) {
+    .wrapper {
+        width: 93vw !important;
+        padding: 0;
+    }
+
+    .bulkOrderWrapper {
+        padding: 10px 10px 20px 10px;
+    }
+
+    .bulkOrderTitle {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .bulkOrderText {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .bulkOrderImg {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wrapper {
+        width: 90vw !important;
+    }
+
+    .bulkOrderTitle {
+        font-size: 26px;
+        line-height: 31px;
+    }
+
+    .bulkOrderWrapper {
+        padding: 15px 10px 10px 35px;
+    }
+
+    .bulkOrderText {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .bulkOrderImg {
+        width: 400px;
+        height: 235px;
+        float: right;
+    }
+}
+
+

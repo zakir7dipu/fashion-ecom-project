@@ -1,0 +1,45 @@
+.cCard {
+    margin-bottom: 10px;
+}
+.title, .subTitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: block;
+    padding: 0 0 10px 0;
+}
+.title {
+    color: #1A1A1A;
+}
+.subTitle {
+    color: #00a97f;
+}
+.details {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #808080;
+}
+.cApplyBtn {
+    background-color: transparent;
+    border: 1px solid #1A1A1A;
+    width: 100%;
+    padding: 10px 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1A1A1A;
+}
+
+.cApplyBtn:disabled {
+    border: 1px solid #ccc;
+    color: #ccc;
+    cursor: not-allowed;
+}
+.cApplyBtn:hover {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+}

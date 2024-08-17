@@ -1,0 +1,102 @@
+.section {
+    padding: 15px 0 10px 0;
+    position: relative;
+}
+
+.wishList {
+    position: absolute;
+    padding: 10px 15px;
+    right: 0;
+    top: 15px;
+}
+
+.title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #1A1A1A;
+    padding: 10px 100px 5px 0;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.price {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #1A1A1A;
+    padding: 5px 0;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.price del {
+    color: #808080;
+    padding-right: 7px;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.qtySection {
+    padding: 5px;
+}
+
+.qtyTitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #1A1A1A;
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0 5px;
+}
+
+.qtyInputSection {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.addToCartBtn {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border-radius: 1px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+@media (min-width: 300px) and (max-height: 1199px) {
+    .title {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .price {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .price del {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .title {
+        font-size: 26px;
+        line-height: 31px;
+    }
+
+    .price {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .price del {
+        font-size: 16px;
+        line-height: 21px;
+    }
+}

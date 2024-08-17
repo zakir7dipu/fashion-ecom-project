@@ -1,0 +1,144 @@
+.itemCart {
+    border-bottom: 1px solid #1A1A1A;
+    padding: 10px 0;
+}
+.itemCartCheckRadio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.itemCartImageWrapper {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itemCartImg {
+    width: 75% !important;
+}
+.itemCartDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.itemCartHead {
+    display: flex;
+    justify-content: space-between;
+}
+.itemCartHeadTitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #1A1A1A;
+    font-size: 15px;
+    line-height: 22px;
+}
+.itemCartTrashBtn {
+    background-color: transparent;
+    padding: 0;
+    color: #1A1A1A;
+}
+.itemCartTrashBtn svg {
+    fill: #1A1A1A;
+}
+.itemCartAttributeSec {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #808080;
+    font-size: 14px;
+    line-height: 17px;
+}
+.itemCartAttribute {
+    padding: 2px 3px;
+    border: 1px solid #1A1A1A;
+}
+.itemCartPrice {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1A1A1A;
+}
+.itemCartQtySec {
+    margin-left: 15px;
+}
+.itemCartQty{
+    width: 100px;
+    height: 35px;
+    border: 1px solid #808080;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.itemCartQtyBtn{
+    width: 32px;
+    background-color: transparent;
+    border: none;
+    Padding: 3px 10px;
+    color: #1A1A1A;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.itemCartQtyBtn:hover {
+    background-color: transparent;
+}
+.itemCartQtyInputNumber{
+    width: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+@media (min-width: 300px) and (max-height: 1199px) {
+    .itemCartQtyInputNumber {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .itemCartQtyBtn {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .itemCartQtyInputNumber {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .itemCartQtyBtn {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+input[type="checkbox"].cartItemInput {
+    appearance: none;
+    position: relative;
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="checkbox"].cartItemInput:after {
+    content: '';
+    position: absolute;
+    background-color: #1A1A1A;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    color: #1A1A1A;
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+input[type="checkbox"].cartItemInput:checked:after {
+    display: inline-block;
+}

@@ -1,0 +1,76 @@
+.section {
+    padding: 30px 0;
+}
+.wrapper {
+    width: 90vw !important;
+    padding: 0;
+    overflow: hidden;
+}
+.partnerSectionTitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #1A1A1A;
+    text-align: center;
+}
+@media (min-width: 300px) and (max-height: 1199px) {
+    .wrapper {
+        width: 93vw !important;
+        padding: 0;
+    }
+    .partnerSectionTitle {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wrapper {
+        width: 90vw !important;
+    }
+    .partnerSectionTitle {
+        font-size: 34px;
+        line-height: 41px;
+    }
+}
+
+/*Next & Prev Button*/
+.slickPrev, .slickNext {
+    z-index: 9999 !important;
+    display: block !important;
+}
+
+.slickPrev {
+    left: 2px !important;
+}
+
+.slickNext {
+    right: 20px !important;
+}
+
+.slickPrev:before,
+.slickNext:before {
+    background-color: #808080 !important;
+    opacity: 1;
+    padding: 13px 15px;
+    border-radius: 5px;
+    transition: .5s;
+    font-size: 16px !important;
+    font-family: "Font Awesome 5 Free", serif; /* Font family */
+    font-weight: 900; /* Font weight for solid icons */
+    display: inline-block;
+}
+
+.slickPrev:before {
+    content: "\f104";
+}
+
+.slickNext:before {
+    content: "\f105" !important;
+}
+
+.slickPrev:hover:before,
+.slickNext:hover:before {
+    background-color: #1A1A1A !important;
+}

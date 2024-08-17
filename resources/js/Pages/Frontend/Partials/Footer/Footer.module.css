@@ -1,0 +1,132 @@
+.footer {
+    background-color: #37383f;
+}
+.wrapper {
+    width: 90vw !important;
+    overflow: hidden;
+    padding: 50px 0 30px 0;
+}
+.footerC1 {
+    padding-top: 30px;
+}
+.footerLogo {
+    width: 75px;
+    height: 75px;
+}
+.footerLogoWrapper {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.footerP {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.footerCTitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.socialLinkWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.socialLinkWrapper li {
+    padding: 5px 8px;
+    text-align: center;
+}
+.socialLinkName {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+.footerCLinkWrapper li a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.footerBottom {
+    border-top: 1px solid #FFFFFF;
+    padding: 20px 0;
+}
+.footerBottom p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+@media (min-width: 300px) and (max-height: 1199px) {
+    .wrapper {
+        width: 93vw !important;
+    }
+    .footerLogoWrapper {
+        justify-content: start;
+    }
+    .footerP {
+        padding-right: 0;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .footerCTitle {
+        font-size: 14px;
+        line-height: 17px;
+        /*margin-bottom: 0;*/
+    }
+    .footerCLinkWrapper {
+        padding: 3px 5px;
+    }
+    .footerCLinkWrapper li a {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .footerBottom p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wrapper {
+        width: 90vw !important;
+    }
+
+    .footerC1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+    }
+    .footerLogoWrapper {
+        justify-content: end;
+    }
+    .footerP {
+        padding-right: 130px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .footerCTitle {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .footerCLinkWrapper {
+        padding: 15px 10px 10px 5px;
+    }
+    .footerCLinkWrapper li a {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .footerBottom p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

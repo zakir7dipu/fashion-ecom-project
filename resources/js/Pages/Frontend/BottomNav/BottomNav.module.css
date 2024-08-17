@@ -1,0 +1,95 @@
+.bottomNav {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 9999;
+    box-sizing: border-box;
+    box-shadow: -1px -4px 5px -1px rgba(0, 0, 0, 0.45);
+    -webkit-box-shadow: -1px -4px 5px -1px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: -1px -4px 5px -1px rgba(0, 0, 0, 0.45);
+}
+
+.bottomNav > ul {
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottomNav > ul > li {
+    list-style: none;
+}
+.bottomNav > ul > li > a {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #808080;
+}
+.bottomNav > ul > li > a > svg{
+    fill: #808080;
+    /*stroke: #1a1a1a;*/
+}
+.bottomNav > ul > li > a.group > svg{
+    fill: none;
+    stroke: #808080;
+}
+
+.bottomNav > ul > li > a:hover, .bottomNav > ul > li > a.active {
+    color: #1A1A1A;
+}
+.bottomNav > ul > li > a:hover svg, .bottomNav > ul > li > a.active svg {
+    fill: #1A1A1A;
+}
+
+.bottomNav > ul > li > a.group:hover > svg, .bottomNav > ul > li > a.group.active svg {
+    fill: none;
+    stroke: #1A1A1A;
+}
+
+/*Client Navbar*/
+.clientNavWrapper {
+    width: 100vw;
+    height: 89vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #f0f0f0;
+    z-index: 99999999 ;
+    display: none;
+}
+.clientNavWrapper.activeNav {
+    display: block;
+}
+
+.clientNavHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+}
+.clientNavHeader>.title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.clientNavHeader>.closeBtn {
+    font-size: 25px;
+    font-weight: 500;
+    color: #FF3131;
+}
+

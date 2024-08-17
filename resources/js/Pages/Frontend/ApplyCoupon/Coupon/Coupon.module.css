@@ -1,0 +1,30 @@
+/*.sliderCartBody {*/
+/*    position: relative;*/
+/*    padding-bottom: 60px;*/
+/*}*/
+/*@media (min-width: 300px) and (max-height: 1199px) {*/
+/*    .sliderCartBody {*/
+/*        padding-bottom: 135px;*/
+/*    }*/
+
+/*    .cartBottom {*/
+/*        bottom: 75px;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 1200px) {*/
+/*    .sliderCartBody {*/
+/*        padding-bottom: 60px;*/
+/*    }*/
+
+/*    .cartBottom {*/
+/*        bottom: 0;*/
+/*    }*/
+/*}*/
+.sectionTitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #1A1A1A;
+    font-size: 18px;
+    line-height: 22px;
+}

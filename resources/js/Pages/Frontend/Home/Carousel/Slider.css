@@ -1,0 +1,45 @@
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+}
+
+
+.carousel-caption{
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.carousel-item img {
+    animation: slideImd 1s ease-in forwards;
+}
+
+@keyframes slideImd {
+    from {
+        filter: blur(10px);
+        transform: scale(1.1);
+    }
+    to {
+        filter: blur(0px);
+        transform: scale(1);
+    }
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    margin-right: 8px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}

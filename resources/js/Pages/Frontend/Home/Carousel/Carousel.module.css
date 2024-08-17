@@ -1,0 +1,18 @@
+.sliderSkeleton {
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (min-width: 300px) and (max-height: 1199px) {
+    .sliderSkeleton {
+        width: 100vw;
+        height: 30vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    .sliderSkeleton {
+        width: 100vw;
+        height: 100vh;
+    }
+}

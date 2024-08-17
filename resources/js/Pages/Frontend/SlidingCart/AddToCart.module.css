@@ -1,0 +1,261 @@
+.sliderCartBody {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.couponSection {
+    margin: 40px 0px;
+}
+
+.couponSection div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.couponSection p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #1A1A1A;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+}
+
+.couponSection button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1A1A1A;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #1A1A1A;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.paymentDetailsSec {
+    border: 1px solid #808080;
+    padding: 20px 15px;
+}
+
+.paymentDetailsSecTitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #1A1A1A;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.paymentDetailsSecItem {
+    padding: 7px 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #1A1A1A;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.paymentPrice {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+}
+
+.paymentPriceUndefined {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    color: #808080;
+    text-align: justify;
+}
+
+.cartBottom {
+    width: 500px !important;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    right: -100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    box-shadow: -1px -3px 5px 0px rgba(0, 0, 0, 0.41);
+    -webkit-box-shadow: -1px -3px 5px 0px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: -1px -3px 5px 0px rgba(0, 0, 0, 0.41);
+    transition: right 0.3s ease;
+}
+
+.cartBottom.dFlex {
+    right: 0;
+}
+
+.cartBottom div {
+    display: inline-block;
+}
+
+.inputLabel {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.inputLabel span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #1A1A1A;
+    font-size: 22px;
+    line-height: 26px;
+    padding: 0 10px;
+}
+
+.bottomPaymentPrice {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #1A1A1A;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.bottomPaymentPrice span {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    padding: 0 10px;
+}
+
+@media only screen and  (min-width: 300px) and (max-height: 1199px) {
+    .inputLabel span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .bottomPaymentPrice {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .bottomPaymentPrice span {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .couponSection {
+        margin: 20px 0px !important;
+    }
+}
+
+
+/* Ensure the icon is visible on larger screens */
+@media only screen and  (min-width: 1200px) {
+    .inputLabel span {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .bottomPaymentPrice {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .bottomPaymentPrice span {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .couponSection {
+        margin: 40px 0px !important;
+    }
+}
+
+
+input[type="checkbox"].cartInput {
+    appearance: none;
+    position: relative;
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="checkbox"].cartInput:after {
+    content: '';
+    position: absolute;
+    background-color: #1A1A1A;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    color: #1A1A1A;
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+input[type="checkbox"].cartInput:checked:after {
+    display: inline-block;
+}
+
+.bottomPaymentBtn {
+    padding: 15px;
+    background-color: #2bb673;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+.closeCart {
+    width: fit-content;
+    border: none;
+    font-size: 24px;
+    line-height: 32px;
+    cursor: pointer;
+    color: #333;
+    padding: 0;
+    gap: 10px;
+}
+
+.closeCartIcon {
+    text-align: right;
+    margin-left: 24px;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+@media (min-width: 300px) and (max-height: 1199px) {
+    .cartBottom {
+        width: 100%;
+    }
+
+    .sliderCartBody {
+        padding-bottom: 135px;
+    }
+
+    .cartBottom {
+        bottom: 75px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cartBottom {
+        width: 500px !important;
+    }
+
+    .sliderCartBody {
+        padding-bottom: 60px;
+    }
+
+    .cartBottom {
+        bottom: 0;
+    }
+}
+
